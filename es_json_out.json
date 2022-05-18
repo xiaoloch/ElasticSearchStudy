@@ -1,0 +1,655 @@
+{
+  "took" : 1402,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 525,
+    "successful" : 525,
+    "skipped" : 424,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 53,
+      "relation" : "eq"
+    },
+    "max_score" : 0.0,
+    "hits" : [
+      {
+        "_index" : "elements-api-2022-05-02",
+        "_type" : "api",
+        "_id" : "35c30a5f-7b06-45b5-b5e0-c98e6ae88099",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "502",
+          "@correlationId" : "b13c6556b4d847bb91b70a4eeda02dc1",
+          "@enterpriseId" : "27591",
+          "@appName" : "TjeKvik UK"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-02",
+        "_type" : "api",
+        "_id" : "0592191e-aaf7-44f6-8cb7-c2f8b138055f",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "502",
+          "@correlationId" : "2add3b25e33945b19afb4305b7beabcd",
+          "@enterpriseId" : "27591",
+          "@appName" : "svc.leadhub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-03",
+        "_type" : "api",
+        "_id" : "6b500ff6-8a79-4467-b3f0-2455377d3432",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "503",
+          "@correlationId" : "93276f06910c492b87b4375fd28ea34c",
+          "@enterpriseId" : "27591",
+          "@appName" : "svc.leadhub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-04",
+        "_type" : "api",
+        "_id" : "1079fee9-35f2-4907-bc03-e5ab03038ecc",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "4efb350b31ca4d969adb0cb69d546eb5",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-04",
+        "_type" : "api",
+        "_id" : "a2e37600-a62d-4460-ab3e-194bbc9011b5",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "04156b61379348f09c327cca3102a325",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-04",
+        "_type" : "api",
+        "_id" : "97411cfc-0c5e-43be-b077-353ab3639845",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "98989a0168194866bb3caca4718fd37e",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-04",
+        "_type" : "api",
+        "_id" : "65aaec75-d6ce-4d71-8ea7-351d58a518de",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "1db7b778c8f14b8f8d1667f158ed5044",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-05",
+        "_type" : "api",
+        "_id" : "d7020d61-453d-48cb-a252-bd8be55ec1c4",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "46c74140b95748419db9cb61d3d5732b",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-06",
+        "_type" : "api",
+        "_id" : "6a0a521a-ade9-40e6-a7a7-89eeddb81c3a",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "22417eca2582403496c46d04fd37ead8",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-06",
+        "_type" : "api",
+        "_id" : "34fff331-da60-42f5-8189-b8ee8ca9b850",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "cdcd3d20ec1f46419a6b7850b3067d8e",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-01",
+        "_type" : "api",
+        "_id" : "6a24b265-5791-4a35-aa72-cbada5483f36",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "503",
+          "@correlationId" : "3bd896464aa34ccfa13ba52153583623",
+          "@enterpriseId" : "27591",
+          "@appName" : "svc.leadhub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-01",
+        "_type" : "api",
+        "_id" : "bc8186b1-a7f3-4686-931e-60d3bf85750e",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "503",
+          "@correlationId" : "049b55cb82c54f81ab8b43892c28328c",
+          "@enterpriseId" : "27591",
+          "@appName" : "svc.leadhub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-03",
+        "_type" : "api",
+        "_id" : "b87d3820-379b-46b4-bc22-023780cfd040",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "502",
+          "@correlationId" : "b8afe78ef83c41e6bd4fcc74acf9ed8a",
+          "@enterpriseId" : "27591",
+          "@appName" : "TjeKvik UK"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-03",
+        "_type" : "api",
+        "_id" : "c24c1011-bea6-4947-9f00-a7f2c041bcab",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "503",
+          "@correlationId" : "b0c06b68535748a3a31d40fe912a2322",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-04",
+        "_type" : "api",
+        "_id" : "339f1636-2a50-4d74-afc1-327d81cad730",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "62187f25b34b4c7597738b5401fc6cf0",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-04",
+        "_type" : "api",
+        "_id" : "cfb1ccb3-0912-4023-b279-285404c12a08",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "a9efd9455dee4ca38b4b207f88ca14ba",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-05",
+        "_type" : "api",
+        "_id" : "b266ca55-7fb0-49eb-8bdb-b716b045a7ae",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "831e4080e3144f468c98f8b2cf3b44e2",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-05",
+        "_type" : "api",
+        "_id" : "bf8b2006-ade1-417c-ad6f-739567b79b60",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "f32b8825eb2a46fc8d7e89d131af5fa2",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-05",
+        "_type" : "api",
+        "_id" : "06828784-2bcf-4a57-8a4a-e79e529d466f",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "f269d3fbfcd649fba3716e897203c5b0",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-06",
+        "_type" : "api",
+        "_id" : "a5d9dc3e-9fa6-47f5-b2c8-1800be103067",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "731988c5c26d497395cd9b2d75ed886d",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-06",
+        "_type" : "api",
+        "_id" : "69afaa5e-ce7a-41bf-b552-60dd00965a6f",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "34a3b36ebf314790877d9f02298f9c77",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-03",
+        "_type" : "api",
+        "_id" : "a8b9128b-59e4-41ed-a455-f551d691668d",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "503",
+          "@correlationId" : "93276f06910c492b87b4375fd28ea34c",
+          "@enterpriseId" : "27591",
+          "@appName" : "svc.leadhub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-04",
+        "_type" : "api",
+        "_id" : "99323969-d3b6-4a7c-905d-7fc955f4ff18",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "14a07ad0c13a4d9b99b03374e65e9e5f",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-04",
+        "_type" : "api",
+        "_id" : "b3a0883b-c88b-4c24-a735-ef346d6a2369",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "502",
+          "@correlationId" : "e6f9217ce03d4763b368f7754dcd0d32",
+          "@enterpriseId" : "27591",
+          "@appName" : "TjeKvik UK"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-04",
+        "_type" : "api",
+        "_id" : "ad552723-033c-42e6-8a1e-2e60c7cc67cf",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "502",
+          "@correlationId" : "b5af9a0d960a44debe161ad02e2b9897",
+          "@enterpriseId" : "27591",
+          "@appName" : "TjeKvik UK"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-05",
+        "_type" : "api",
+        "_id" : "7cc181c4-2683-41ce-a421-07d3f44796d4",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "8db70ae2130647deb85e11cdf7307985",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-05",
+        "_type" : "api",
+        "_id" : "bea301a6-e85e-4d41-a0e5-3955b2239b3b",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "502",
+          "@correlationId" : "545b858918f54d7c85e435569c12b54f",
+          "@enterpriseId" : "27591",
+          "@appName" : "TjeKvik UK"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-06",
+        "_type" : "api",
+        "_id" : "f358f916-47ab-432c-a8db-404482ef4762",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "2e9268deaf754c7b86c5e0af24231e29",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-06",
+        "_type" : "api",
+        "_id" : "f5b0d552-566a-4324-9a46-1bd44b1ff561",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "47f89ed52422426b8b03ce5d34fed275",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-01",
+        "_type" : "api",
+        "_id" : "8eee551f-506d-4741-a57f-374106c68b49",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "2df7b4bb49a048ec920ab2a97046e269",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-01",
+        "_type" : "api",
+        "_id" : "103bd196-3dda-4068-a946-f1d13f185bd0",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "503",
+          "@correlationId" : "049b55cb82c54f81ab8b43892c28328c",
+          "@enterpriseId" : "27591",
+          "@appName" : "svc.leadhub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-02",
+        "_type" : "api",
+        "_id" : "bd08cfd1-0a91-4bfe-95a7-72f28a48190b",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "502",
+          "@correlationId" : "22cc61b0275e4e1eb1ed9af615cbfc03",
+          "@enterpriseId" : "27591",
+          "@appName" : "TjeKvik UK"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-03",
+        "_type" : "api",
+        "_id" : "cb5445a6-9f4c-4fa8-a940-ba569d95875d",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "503",
+          "@correlationId" : "93276f06910c492b87b4375fd28ea34c",
+          "@enterpriseId" : "27591",
+          "@appName" : "svc.leadhub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-04",
+        "_type" : "api",
+        "_id" : "38776ef2-ede5-44bd-9562-a31636219b0d",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "7d0b0e9f494448f696362c3c65c4eb0f",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-04",
+        "_type" : "api",
+        "_id" : "a6259249-fa6c-4382-811d-40d9ce61058b",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "89a2de42d47c4a03b905b0e0a4ab38d5",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-04",
+        "_type" : "api",
+        "_id" : "6fbd49d1-62b2-4359-ba8a-dbdd6efee5d1",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "5bb0f3279cc84994bb0a51e596c84abe",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-04",
+        "_type" : "api",
+        "_id" : "680e1977-9307-47e8-a07d-b0a119ff41dc",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "9e00c75488524865b4b62678144dd9cb",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-05",
+        "_type" : "api",
+        "_id" : "8f242f35-ba73-40c3-b5fa-4ebd1fb008e9",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "3f1cacaae43f4b0188111a3693bec99f",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-05",
+        "_type" : "api",
+        "_id" : "84532900-b69a-42ee-8873-72a25286c34c",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "33d675eb52d14daea5abd2f3f78e4879",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-05",
+        "_type" : "api",
+        "_id" : "5196d931-1e23-40b3-9503-de25e09b996e",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "a775d33725254362ab809d0d62fd182e",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-05",
+        "_type" : "api",
+        "_id" : "97c24b97-cfee-4062-acc5-04e85efe75b5",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "75aa9a152aa14161a87d3f7fad24c531",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-05",
+        "_type" : "api",
+        "_id" : "eeca9311-c410-4d68-a646-1680e4d9cfd0",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "dac1f704c5bc43d68e1206a6cbf850d9",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-06",
+        "_type" : "api",
+        "_id" : "c2a4ab24-4257-48d1-a843-e53736eae243",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "99b7301c27da482da5acdd417f60fe3d",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-01",
+        "_type" : "api",
+        "_id" : "84c2b80f-4d53-4a57-9458-470016e8dc53",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "503",
+          "@correlationId" : "3bd896464aa34ccfa13ba52153583623",
+          "@enterpriseId" : "27591",
+          "@appName" : "svc.leadhub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-01",
+        "_type" : "api",
+        "_id" : "e08f037c-6c60-48a3-a924-baf0e83b5f9a",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "b2f7796ed4c44932ab8d6a58812376fa",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-02",
+        "_type" : "api",
+        "_id" : "5cacf670-b451-404a-beb8-c8c9f3f0103a",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "502",
+          "@correlationId" : "2add3b25e33945b19afb4305b7beabcd",
+          "@enterpriseId" : "27591",
+          "@appName" : "svc.leadhub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-02",
+        "_type" : "api",
+        "_id" : "d1314531-af20-4dd9-b82e-3df633d41725",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "502",
+          "@correlationId" : "2add3b25e33945b19afb4305b7beabcd",
+          "@enterpriseId" : "27591",
+          "@appName" : "svc.leadhub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-02",
+        "_type" : "api",
+        "_id" : "98574539-b6e7-4103-bc5c-636fec9ac78d",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "502",
+          "@correlationId" : "2add3b25e33945b19afb4305b7beabcd",
+          "@enterpriseId" : "27591",
+          "@appName" : "svc.leadhub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-04",
+        "_type" : "api",
+        "_id" : "811538f8-1b89-4928-b131-e2e0b24d1f6d",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "958748b5382c4c14a5f9f5b9fbf32e79",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-04",
+        "_type" : "api",
+        "_id" : "1b294d63-ac00-499f-bb56-70cc596b50eb",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "d1db057b3fd54c18ace6e380572b2532",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-05",
+        "_type" : "api",
+        "_id" : "8b0a6ea3-34d0-41fb-bbd8-f4b7db4f35b1",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "bb7f9438019d4f0a99206224f9d7bc03",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-05",
+        "_type" : "api",
+        "_id" : "ab13dc3e-85ab-4498-a634-1d3cb59cc166",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "500",
+          "@correlationId" : "cd286672d47341829129e2658fcb6742",
+          "@enterpriseId" : "27591",
+          "@appName" : "DataHub"
+        }
+      },
+      {
+        "_index" : "elements-api-2022-05-05",
+        "_type" : "api",
+        "_id" : "1a278927-a027-46d9-9ff0-3fd016055ae1",
+        "_score" : 0.0,
+        "_source" : {
+          "@result" : "502",
+          "@correlationId" : "20b98b9ac9dc45dc9463fc1473fefe6a",
+          "@enterpriseId" : "27591",
+          "@appName" : "TjeKvik UK"
+        }
+      }
+    ]
+  }
+}
