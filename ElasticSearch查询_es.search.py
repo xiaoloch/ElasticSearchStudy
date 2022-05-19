@@ -18,7 +18,7 @@ body = {
     "match_all": {}
   }
 }
-result = es.search(index='python3', body= body,filter_path=['hits.total', 'hits.hits._source'],_source=['name'])
+result = es.search(index='python3', body= body,filter_path=['hits.total', 'hits.hits._source'], _source=['name'])
 count = es.count(index='python3', body= body)
 print(result)
 print(count)

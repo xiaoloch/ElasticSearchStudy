@@ -1,10 +1,10 @@
 {
-  "took" : 1402,
+  "took" : 948,
   "timed_out" : false,
   "_shards" : {
     "total" : 525,
     "successful" : 525,
-    "skipped" : 424,
+    "skipped" : 422,
     "failed" : 0
   },
   "hits" : {
@@ -23,6 +23,11 @@
           "@result" : "502",
           "@correlationId" : "b13c6556b4d847bb91b70a4eeda02dc1",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"b13c6556b4d847bb91b70a4eeda02dc1","message":"Backend service responded with http NotFound but the response data could not be processed"}"""
+            }
+          },
           "@appName" : "TjeKvik UK"
         }
       },
@@ -35,6 +40,11 @@
           "@result" : "502",
           "@correlationId" : "2add3b25e33945b19afb4305b7beabcd",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"2add3b25e33945b19afb4305b7beabcd","message":"Unhandled exception: {\"Code\":500,\"Description\":\"DMS returned 5xx\",\"CorrelationId\":\"2add3b25e33945b19afb4305b7beabcd\",\"Resource\":null}"}"""
+            }
+          },
           "@appName" : "svc.leadhub"
         }
       },
@@ -47,6 +57,11 @@
           "@result" : "503",
           "@correlationId" : "93276f06910c492b87b4375fd28ea34c",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"93276f06910c492b87b4375fd28ea34c","message":"DMS is down for maintenance"}"""
+            }
+          },
           "@appName" : "svc.leadhub"
         }
       },
@@ -59,6 +74,11 @@
           "@result" : "500",
           "@correlationId" : "4efb350b31ca4d969adb0cb69d546eb5",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"4efb350b31ca4d969adb0cb69d546eb5","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -71,6 +91,11 @@
           "@result" : "500",
           "@correlationId" : "04156b61379348f09c327cca3102a325",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"04156b61379348f09c327cca3102a325","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -83,6 +108,11 @@
           "@result" : "500",
           "@correlationId" : "98989a0168194866bb3caca4718fd37e",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"98989a0168194866bb3caca4718fd37e","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -95,6 +125,11 @@
           "@result" : "500",
           "@correlationId" : "1db7b778c8f14b8f8d1667f158ed5044",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"1db7b778c8f14b8f8d1667f158ed5044","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -107,6 +142,11 @@
           "@result" : "500",
           "@correlationId" : "46c74140b95748419db9cb61d3d5732b",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"46c74140b95748419db9cb61d3d5732b","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -119,6 +159,11 @@
           "@result" : "500",
           "@correlationId" : "22417eca2582403496c46d04fd37ead8",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"22417eca2582403496c46d04fd37ead8","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -131,6 +176,11 @@
           "@result" : "500",
           "@correlationId" : "cdcd3d20ec1f46419a6b7850b3067d8e",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"cdcd3d20ec1f46419a6b7850b3067d8e","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -143,6 +193,11 @@
           "@result" : "503",
           "@correlationId" : "3bd896464aa34ccfa13ba52153583623",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"3bd896464aa34ccfa13ba52153583623","message":"DMS is down for maintenance"}"""
+            }
+          },
           "@appName" : "svc.leadhub"
         }
       },
@@ -155,6 +210,11 @@
           "@result" : "503",
           "@correlationId" : "049b55cb82c54f81ab8b43892c28328c",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"049b55cb82c54f81ab8b43892c28328c","message":"DMS is down for maintenance"}"""
+            }
+          },
           "@appName" : "svc.leadhub"
         }
       },
@@ -167,6 +227,11 @@
           "@result" : "502",
           "@correlationId" : "b8afe78ef83c41e6bd4fcc74acf9ed8a",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"b8afe78ef83c41e6bd4fcc74acf9ed8a","message":"Backend service responded with http NotFound but the response data could not be processed"}"""
+            }
+          },
           "@appName" : "TjeKvik UK"
         }
       },
@@ -179,6 +244,11 @@
           "@result" : "503",
           "@correlationId" : "b0c06b68535748a3a31d40fe912a2322",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"b0c06b68535748a3a31d40fe912a2322","message":"DMS is down for maintenance"}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -191,6 +261,11 @@
           "@result" : "500",
           "@correlationId" : "62187f25b34b4c7597738b5401fc6cf0",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"62187f25b34b4c7597738b5401fc6cf0","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -203,6 +278,11 @@
           "@result" : "500",
           "@correlationId" : "a9efd9455dee4ca38b4b207f88ca14ba",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"a9efd9455dee4ca38b4b207f88ca14ba","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -215,6 +295,11 @@
           "@result" : "500",
           "@correlationId" : "831e4080e3144f468c98f8b2cf3b44e2",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"831e4080e3144f468c98f8b2cf3b44e2","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -227,6 +312,11 @@
           "@result" : "500",
           "@correlationId" : "f32b8825eb2a46fc8d7e89d131af5fa2",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"f32b8825eb2a46fc8d7e89d131af5fa2","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -239,6 +329,11 @@
           "@result" : "500",
           "@correlationId" : "f269d3fbfcd649fba3716e897203c5b0",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"f269d3fbfcd649fba3716e897203c5b0","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -251,6 +346,11 @@
           "@result" : "500",
           "@correlationId" : "731988c5c26d497395cd9b2d75ed886d",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"731988c5c26d497395cd9b2d75ed886d","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -263,6 +363,11 @@
           "@result" : "500",
           "@correlationId" : "34a3b36ebf314790877d9f02298f9c77",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"34a3b36ebf314790877d9f02298f9c77","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -275,6 +380,11 @@
           "@result" : "503",
           "@correlationId" : "93276f06910c492b87b4375fd28ea34c",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"93276f06910c492b87b4375fd28ea34c","message":"DMS is down for maintenance"}"""
+            }
+          },
           "@appName" : "svc.leadhub"
         }
       },
@@ -287,6 +397,11 @@
           "@result" : "500",
           "@correlationId" : "14a07ad0c13a4d9b99b03374e65e9e5f",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"14a07ad0c13a4d9b99b03374e65e9e5f","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -299,6 +414,11 @@
           "@result" : "502",
           "@correlationId" : "e6f9217ce03d4763b368f7754dcd0d32",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"e6f9217ce03d4763b368f7754dcd0d32","message":"Backend service responded with http NotFound but the response data could not be processed"}"""
+            }
+          },
           "@appName" : "TjeKvik UK"
         }
       },
@@ -311,6 +431,11 @@
           "@result" : "502",
           "@correlationId" : "b5af9a0d960a44debe161ad02e2b9897",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"b5af9a0d960a44debe161ad02e2b9897","message":"Backend service responded with http NotFound but the response data could not be processed"}"""
+            }
+          },
           "@appName" : "TjeKvik UK"
         }
       },
@@ -323,6 +448,11 @@
           "@result" : "500",
           "@correlationId" : "8db70ae2130647deb85e11cdf7307985",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"8db70ae2130647deb85e11cdf7307985","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -335,6 +465,11 @@
           "@result" : "502",
           "@correlationId" : "545b858918f54d7c85e435569c12b54f",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"545b858918f54d7c85e435569c12b54f","message":"Backend service responded with http NotFound but the response data could not be processed"}"""
+            }
+          },
           "@appName" : "TjeKvik UK"
         }
       },
@@ -347,6 +482,11 @@
           "@result" : "500",
           "@correlationId" : "2e9268deaf754c7b86c5e0af24231e29",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"2e9268deaf754c7b86c5e0af24231e29","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -359,6 +499,11 @@
           "@result" : "500",
           "@correlationId" : "47f89ed52422426b8b03ce5d34fed275",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"47f89ed52422426b8b03ce5d34fed275","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -371,6 +516,11 @@
           "@result" : "500",
           "@correlationId" : "2df7b4bb49a048ec920ab2a97046e269",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"2df7b4bb49a048ec920ab2a97046e269","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -383,6 +533,11 @@
           "@result" : "503",
           "@correlationId" : "049b55cb82c54f81ab8b43892c28328c",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"049b55cb82c54f81ab8b43892c28328c","message":"DMS is down for maintenance"}"""
+            }
+          },
           "@appName" : "svc.leadhub"
         }
       },
@@ -395,6 +550,11 @@
           "@result" : "502",
           "@correlationId" : "22cc61b0275e4e1eb1ed9af615cbfc03",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"22cc61b0275e4e1eb1ed9af615cbfc03","message":"Backend service responded with http NotFound but the response data could not be processed"}"""
+            }
+          },
           "@appName" : "TjeKvik UK"
         }
       },
@@ -407,6 +567,11 @@
           "@result" : "503",
           "@correlationId" : "93276f06910c492b87b4375fd28ea34c",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"93276f06910c492b87b4375fd28ea34c","message":"DMS is down for maintenance"}"""
+            }
+          },
           "@appName" : "svc.leadhub"
         }
       },
@@ -419,6 +584,11 @@
           "@result" : "500",
           "@correlationId" : "7d0b0e9f494448f696362c3c65c4eb0f",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"7d0b0e9f494448f696362c3c65c4eb0f","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -431,6 +601,11 @@
           "@result" : "500",
           "@correlationId" : "89a2de42d47c4a03b905b0e0a4ab38d5",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"89a2de42d47c4a03b905b0e0a4ab38d5","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -443,6 +618,11 @@
           "@result" : "500",
           "@correlationId" : "5bb0f3279cc84994bb0a51e596c84abe",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"5bb0f3279cc84994bb0a51e596c84abe","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -455,6 +635,11 @@
           "@result" : "500",
           "@correlationId" : "9e00c75488524865b4b62678144dd9cb",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"9e00c75488524865b4b62678144dd9cb","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -467,6 +652,11 @@
           "@result" : "500",
           "@correlationId" : "3f1cacaae43f4b0188111a3693bec99f",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"3f1cacaae43f4b0188111a3693bec99f","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -479,6 +669,11 @@
           "@result" : "500",
           "@correlationId" : "33d675eb52d14daea5abd2f3f78e4879",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"33d675eb52d14daea5abd2f3f78e4879","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -491,6 +686,11 @@
           "@result" : "500",
           "@correlationId" : "a775d33725254362ab809d0d62fd182e",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"a775d33725254362ab809d0d62fd182e","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -503,6 +703,11 @@
           "@result" : "500",
           "@correlationId" : "75aa9a152aa14161a87d3f7fad24c531",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"75aa9a152aa14161a87d3f7fad24c531","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -515,6 +720,11 @@
           "@result" : "500",
           "@correlationId" : "dac1f704c5bc43d68e1206a6cbf850d9",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"dac1f704c5bc43d68e1206a6cbf850d9","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -527,6 +737,11 @@
           "@result" : "500",
           "@correlationId" : "99b7301c27da482da5acdd417f60fe3d",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"99b7301c27da482da5acdd417f60fe3d","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -539,6 +754,11 @@
           "@result" : "503",
           "@correlationId" : "3bd896464aa34ccfa13ba52153583623",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"3bd896464aa34ccfa13ba52153583623","message":"DMS is down for maintenance"}"""
+            }
+          },
           "@appName" : "svc.leadhub"
         }
       },
@@ -551,6 +771,11 @@
           "@result" : "500",
           "@correlationId" : "b2f7796ed4c44932ab8d6a58812376fa",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"b2f7796ed4c44932ab8d6a58812376fa","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -563,6 +788,11 @@
           "@result" : "502",
           "@correlationId" : "2add3b25e33945b19afb4305b7beabcd",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"2add3b25e33945b19afb4305b7beabcd","message":"Unhandled exception: {\"Code\":500,\"Description\":\"DMS returned 5xx\",\"CorrelationId\":\"2add3b25e33945b19afb4305b7beabcd\",\"Resource\":null}"}"""
+            }
+          },
           "@appName" : "svc.leadhub"
         }
       },
@@ -575,6 +805,11 @@
           "@result" : "502",
           "@correlationId" : "2add3b25e33945b19afb4305b7beabcd",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"2add3b25e33945b19afb4305b7beabcd","message":"Unhandled exception: {\"Code\":500,\"Description\":\"DMS returned 5xx\",\"CorrelationId\":\"2add3b25e33945b19afb4305b7beabcd\",\"Resource\":null}"}"""
+            }
+          },
           "@appName" : "svc.leadhub"
         }
       },
@@ -587,6 +822,11 @@
           "@result" : "502",
           "@correlationId" : "2add3b25e33945b19afb4305b7beabcd",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"2add3b25e33945b19afb4305b7beabcd","message":"Unhandled exception: {\"Code\":500,\"Description\":\"DMS returned 5xx\",\"CorrelationId\":\"2add3b25e33945b19afb4305b7beabcd\",\"Resource\":null}"}"""
+            }
+          },
           "@appName" : "svc.leadhub"
         }
       },
@@ -599,6 +839,11 @@
           "@result" : "500",
           "@correlationId" : "958748b5382c4c14a5f9f5b9fbf32e79",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"958748b5382c4c14a5f9f5b9fbf32e79","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -611,6 +856,11 @@
           "@result" : "500",
           "@correlationId" : "d1db057b3fd54c18ace6e380572b2532",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"d1db057b3fd54c18ace6e380572b2532","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -623,6 +873,11 @@
           "@result" : "500",
           "@correlationId" : "bb7f9438019d4f0a99206224f9d7bc03",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"bb7f9438019d4f0a99206224f9d7bc03","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -635,6 +890,11 @@
           "@result" : "500",
           "@correlationId" : "cd286672d47341829129e2658fcb6742",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"cd286672d47341829129e2658fcb6742","message":"Failed to write data into tables","details":[]}"""
+            }
+          },
           "@appName" : "DataHub"
         }
       },
@@ -647,6 +907,11 @@
           "@result" : "502",
           "@correlationId" : "20b98b9ac9dc45dc9463fc1473fefe6a",
           "@enterpriseId" : "27591",
+          "context" : {
+            "response" : {
+              "body" : """{"correlationId":"20b98b9ac9dc45dc9463fc1473fefe6a","message":"Backend service responded with http NotFound but the response data could not be processed"}"""
+            }
+          },
           "@appName" : "TjeKvik UK"
         }
       }
